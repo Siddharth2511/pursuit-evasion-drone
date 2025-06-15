@@ -1,4 +1,4 @@
-# Pursuit-Evasion Simulation in AirSim (DDP)
+# Pursuit-Evasion Simulation in AirSim (Thesis)
 
 This repository contains the final implementation of a vision-based pursuer drone that tracks an evader in 3D using monocular/depth/LiDAR-based strategies. The code is part of Siddharth Anand's Dual Degree Project (DDP2) at IIT Bombay.
 
