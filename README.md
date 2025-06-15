@@ -4,7 +4,9 @@ This repository contains the final implementation of a vision-based pursuer dron
 
 ## Project Goals
 - Simulate real-time drone pursuit in a 3D AirSim environment
-- Test multiple sensing strategies (monocular, depth, LiDAR)
+- Depth estimate for chase using 2 sensing strategies
+     - Strategy 1: monocular camera and drone width ratio
+     - Strategy 2: using depth perspective airsim-API
 - Maintain evader visibility using PID-based gimbal control
 - Handle edge cases like gimbal lock with recovery logic
 
