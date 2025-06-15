@@ -1,0 +1,6 @@
+cosysairsim
+scipy
+numpy
+matplotlib
+opencv-python
+pygame
