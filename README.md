@@ -14,7 +14,6 @@ This repository contains the final implementation of a vision-based pursuer dron
 - `/controllers_3d/` – Control logic for 3D chase
 - `ACGC_3d*.py` – Main simulation scripts
 - `drone_boundingbox.py` – Object localization utilities
-- `drone_positions.xlsx` – Drone spawn layout
 - `requirements.txt` – Python packages used
 
 ## Requirements
