@@ -11,7 +11,6 @@ This repository contains the final implementation of a vision-based pursuer dron
 - Handle edge cases like gimbal lock with recovery logic
 
 ## Folder Structure
-- `/controllers_3d/` – Control logic for 3D chase
 - `ACGC_3d*.py` – Main simulation scripts
 - `drone_boundingbox.py` – Object localization utilities
 - `requirements.txt` – Python packages used
