@@ -1,7 +1,7 @@
 # Pursuit-Evasion Simulation in AirSim (Thesis)
 
 This repository contains the implementation of a vision-based pursuer drone that tracks an evader in 3D using monocular/depth based strategies. The code is part of Siddharth Anand's Final Thesis Project at IIT Bombay under the guidence of Prof. Debraj Chakraborty.
-
+![Adaptive Power](https://i.ibb.co/LyyTLpF/Depth-Chase-with-Adaptive-Power.gif)
 ## Project Goals
 - Simulate real-time drone pursuit in a 3D AirSim environment
 - Depth estimate for chase using 2 sensing strategies
