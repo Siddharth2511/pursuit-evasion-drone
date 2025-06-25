@@ -40,7 +40,7 @@ STRATEGY_FOR_DEPTH : --strategy 1 (Monocular Camera with metric scaling based ap
 ## Results:
 
 ![](https://github.com/anjaneya-damle/anjaneya-damle.github.io/blob/main/Depth_Chase_with_Adaptive_Power.gif)
-![](https://github.com/anjaneya-damle/anjaneya-damle.github.io/blob/main/image54.gif)
+![](https://github.com/anjaneya-damle/anjaneya-damle.github.io/blob/main/Upward_Chase_Adapative_and_Gimble_Lock_compensation.gif)
 
 
 [A complete set of results based on our testing](https://drive.google.com/drive/folders/1tLV9xlbz8-AYGCpOn-BDob6NQro1LIBr)
