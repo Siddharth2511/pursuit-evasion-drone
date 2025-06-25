@@ -6,6 +6,7 @@ import time
 # Initialize the AirSim client
 client = airsim.MultirotorClient()
 client.confirmConnection()
+client.reset()
 
 # Define vehicle names
 EVADER = "Drone0"
@@ -24,10 +25,10 @@ client.takeoffAsync(vehicle_name=PURSUER).join()
 ### Move the evader 
 
 # client.moveToPositionAsync(0, 0, -5, 2, vehicle_name=EVADER).join()
-client.moveByVelocityAsync(0, 0, -1, duration=1000, vehicle_name=EVADER)
-
+client.moveToPositionAsync(0, 2.5, -6.5, 2, vehicle_name=EVADER)
 # Position the pursuer 
-client.moveToPositionAsync(-5, 0, -5, 2, vehicle_name=PURSUER).join()
+client.moveToPositionAsync(-10, 0, -5, 2, vehicle_name=PURSUER).join()
+# client.moveByVelocityAsync(1, 0.5, -0.5, duration=1000, vehicle_name=EVADER)
 
 # Allow some time for the drones to stabilize
 time.sleep(2)
@@ -80,7 +81,9 @@ while True:
             print(f"Center: ({x_center}, {y_center})")
 
     # Display the image with bounding box
-    cv2.imshow("Pursuer's View - Evader Detection", img)
+    cv2.namedWindow("Pursuer's View", cv2.WINDOW_KEEPRATIO)
+    cv2.imshow("Pursuer's View", img)
+    cv2.resizeWindow("Pursuer's View", 512, 288)
 
     # Break the loop if 'q' is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
