@@ -23,7 +23,8 @@ This repository contains the implementation of a vision-based pursuer drone that
 ## Running the Code
 ```bash
 python ACGC_3d-depth_cam.py --EVADER_MOTION --TRACKING_METRICS --STRATEGY_FOR_DEPTH
-```bash
+```
+
 EVADER_MOTIONS : --v_straight (Moves along vertical line) 
                  --circle (Moves in circular path with constant upward velocity [Spiral])
                  --depth (Moves into the plane [Depth axis])
