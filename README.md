@@ -9,7 +9,6 @@ This repository contains the implementation of a vision-based pursuer drone that
      - Strategy 2: using depth perspective airsim-API
 - Maintain evader visibility using PID-based gimbal control
 - Handle edge cases like gimbal lock with recovery logic
-- ![Adaptive Power](https://i.ibb.co/LyyTLpF/Depth-Chase-with-Adaptive-Power.gif)
 
 ## Folder Structure
 - `ACGC_3d*.py` – Main simulation scripts
