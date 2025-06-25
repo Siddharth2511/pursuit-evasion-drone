@@ -1,6 +1,6 @@
 # Pursuit-Evasion Simulation in AirSim (Thesis)
 
-This repository contains the final implementation of a vision-based pursuer drone that tracks an evader in 3D using monocular/depth/LiDAR-based strategies. The code is part of Siddharth Anand's Dual Degree Project (DDP2) at IIT Bombay.
+This repository contains the implementation of a vision-based pursuer drone that tracks an evader in 3D using monocular/depth based strategies. The code is part of Siddharth Anand's Final Thesis Project at IIT Bombay under the guidence of Prof. Debraj Chakraborty.
 
 ## Project Goals
 - Simulate real-time drone pursuit in a 3D AirSim environment
@@ -22,4 +22,15 @@ This repository contains the final implementation of a vision-based pursuer dron
 
 ## Running the Code
 ```bash
-python ACGC_3d-depth_cam.py
+python ACGC_3d-depth_cam.py --EVADER_MOTION --TRACKING_METRICS --STRATEGY_FOR_DEPTH
+EVADER_MOTIONS : --v_straight (Moves along vertical line) 
+                 --circle (Moves in circular path with constant upward velocity [Spiral])
+                 --depth (Moves into the plane [Depth axis])
+
+
+TRACKING_METRICS : --plot (Plots angle error of heading vector and distance between evader and persuer)
+                   --3d_track (3D Mapping  of chase)
+(Can use both together)
+
+STRATEGY_FOR_DEPTH : --strategy 1 (Monocular Camera with metric scaling based approach)
+                     --strategy 2 (Depth camera based approach, Uses Airsim's depth perspective API) [DEFAULT]
