@@ -32,7 +32,7 @@ EVADER_MOTIONS : --v_straight (Moves along vertical line)
 
 TRACKING_METRICS : --plot (Plots angle error of heading vector and distance between evader and persuer)
                    --3d_track (3D Mapping  of chase)
-(Can use both together)
+                   (Can use both together)
 
 STRATEGY_FOR_DEPTH : --strategy 1 (Monocular Camera with metric scaling based approach)
                      --strategy 2 (Depth camera based approach, Uses Airsim depth perspective API) [DEFAULT]
