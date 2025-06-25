@@ -230,7 +230,7 @@ def main(args, strategy):
             angle = evader_motion_circle(client, angle, vel=1.5, vz=-0.5, omega=2, dt=time_step)
 
         elif args.v_straight:
-            evader_motion_v_straight(client, vy=-1, dt=time_step)
+            evader_motion_v_straight(client, vz=-1, dt=time_step)
         
         elif args.depth:
             evader_motion_depth(client, vx = 1, vy = 0, dt=time_step)
@@ -450,4 +450,3 @@ if __name__ == "__main__":
         threading.Thread(target=live_plot_3d, daemon=True).start()
     main(args, args.strategy)
 
-    
