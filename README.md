@@ -37,3 +37,5 @@ TRACKING_METRICS : --plot (Plots angle error of heading vector and distance betw
 STRATEGY_FOR_DEPTH : --strategy 1 (Monocular Camera with metric scaling based approach)
                      --strategy 2 (Depth camera based approach, Uses Airsim depth perspective API) [DEFAULT]
 ```
+Results:
+![Adaptive Power](image49.gif)
