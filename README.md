@@ -38,4 +38,5 @@ STRATEGY_FOR_DEPTH : --strategy 1 (Monocular Camera with metric scaling based ap
                      --strategy 2 (Depth camera based approach, Uses Airsim depth perspective API) [DEFAULT]
 ```
 ## Results:
-![Adaptive Power](image49.gif)
+![Adaptive Power](Depth_Chase_with_Adaptive_Power.gif)
+![Unlock and lock](Upward_chase_with_adaptive_unlock.gif)
