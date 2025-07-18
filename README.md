@@ -21,6 +21,7 @@ This repository contains the implementation of a vision-based pursuer drone that
 - OpenCV, NumPy, matplotlib
 
 ## Running the Code
+Ensure settings.json replaces the default file in your AirSim Folder 
 ```bash
 python ACGC_3d-depth_cam.py --EVADER_MOTION --TRACKING_METRICS --STRATEGY_FOR_DEPTH
 
