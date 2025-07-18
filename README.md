@@ -17,11 +17,13 @@ This repository contains the implementation of a vision-based pursuer drone that
 
 ## Requirements
 - Python 3.8+
-- AirSim + Unreal Engine (Windows)
+- Cosys AirSim + Unreal Engine (Windows)
 - OpenCV, NumPy, matplotlib
 
 ## Running the Code
 Ensure settings.json replaces the default file in your AirSim Folder 
+Now with the custom settings you can use the AirSim plugin in any unreal project.
+Start the simulation in Unreal Engine and then run the following code:
 ```bash
 python ACGC_3d-depth_cam.py --EVADER_MOTION --TRACKING_METRICS --STRATEGY_FOR_DEPTH
 
