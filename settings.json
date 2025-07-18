@@ -1,0 +1,40 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+  "SettingsVersion": 2,
+  "SimMode": "Multirotor",
+  "Port": 41451,
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 256,
+        "Height": 144,
+        "FOV_Degrees": 90
+      },
+      {
+        "ImageType": 2,
+        "Width": 256,
+        "Height": 144,
+        "FOV_Degrees": 90
+      }
+    ]
+  },
+  "Vehicles": { 
+    "Drone0": {
+      "VehicleType": "SimpleFlight",
+      "AllowAPIAlways": true,
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "Yaw": 0
+    },
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "AllowAPIAlways": true,
+      "X": 5,
+      "Y": 0,
+      "Z": 0,
+      "Yaw": 0
+    }
+  }
+}
